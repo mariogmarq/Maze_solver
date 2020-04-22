@@ -79,6 +79,7 @@ func (m maze) FindEntrance() (int, int, error) {
 
 /**
 * @brief Solves the maze showing the path to the screen
+* @param your actual position
  */
 
 //It uses recursivity in order to undo the incorrect moves, but due to this once the maze is solved it begins to be unsolved
